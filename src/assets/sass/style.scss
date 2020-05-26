@@ -1,0 +1,53 @@
+@import "variables";
+
+/* vendors */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/transitions";
+@import "../../../node_modules/bootstrap/scss/modal";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+  color: $color-black;
+  background: $color-background;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+* {
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+/* Block */
+
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/lang";
+@import "blocks/content";
+@import "blocks/intro";
+@import "blocks/button";
+@import "blocks/contacts";
+@import "blocks/author";
+@import "blocks/circle";
+@import "blocks/social";
+@import "blocks/modal";
+@import "blocks/form";
+@import "blocks/input";
+
+@import "blocks/footer";
+

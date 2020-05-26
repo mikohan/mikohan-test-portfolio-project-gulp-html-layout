@@ -1,0 +1,58 @@
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="modal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button
+        type="button"
+        class="modal__close"
+        data-dismiss="modal"
+        aria-label="Close"
+      >
+        <svg class="modal__close--icon">
+          <use xlink:href="#close"></use>
+        </svg>
+      </button>
+
+      <div class="modal__title">Send Request</div>
+      <div class="modal__text">Send your contacts and I will call you ASAP</div>
+
+      <form class="form">
+        <div class="form__group">
+          <input type="text" class="input" placeholder="You Name" />
+        </div>
+        <div class="form__group">
+          <input type="email" class="input" placeholder="You Email" />
+        </div>
+        <div class="form__group">
+          <input type="tel" class="input" placeholder="You Phone" />
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <button class="cbtn cbtn--pink cbtn--upper">Submit</button>
+          </div>
+          <div class="col-lg-6">
+            <ul class="contacts contacts--modal">
+              <li class="contacts__item">
+                <a class="contacts__link" href="tel:+79162151508"
+                  >+7 (916) 215-15-08</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="mailto:angara99@gmail.com"
+                  >angara99@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

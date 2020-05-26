@@ -1,0 +1,28 @@
+.social {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    margin-right: 2rem;
+
+    color: $color-black;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  &__link {
+    &:hover .social__icon {
+      fill: $color-black;
+    }
+  }
+
+  &__icon {
+    display: block;
+    width: 30px;
+    height: 20px;
+
+    fill: darken($color-pinky, 20%);
+
+    transition: fill, 0.2s linear;
+  }
+}

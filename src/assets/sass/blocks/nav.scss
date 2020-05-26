@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+
+  .nav__link {
+    padding: 0.25rem 1.5rem;
+    margin-right: 1rem;
+
+    color: $color-black;
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    transition: background 0.25s linear;
+
+    &:hover {
+      background-color: $color-gray;
+    }
+
+    &.active {
+      color: $color-white;
+      background-color: $color-pinky;
+    }
+  }
+}

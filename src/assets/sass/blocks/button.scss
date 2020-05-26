@@ -1,0 +1,40 @@
+.cbtn {
+  padding: 1rem 2rem;
+  display: inline-block;
+  vertical-align: top;
+
+  background: none;
+  border: 0;
+  border-radius: $radius5;
+
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  font-weight: 500;
+  color: $color-black;
+
+  cursor: pointer;
+
+  transition: background 0.3s linear, color 0.1s;
+
+  &--pink {
+    border: 2px solid $color-pinky;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-pinky;
+    }
+  }
+
+  &--blue {
+    border: 2px solid $color-blue;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-blue;
+    }
+  }
+  &--upper {
+    text-transform: uppercase;
+  }
+}
