@@ -26,6 +26,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-strip-css-comments": "^2.0.0",
     "gulp-uglify": "^3.0.2",
+    "http-proxy": "^1.18.1",
+    "js-yaml": "^3.14.0",
     "panini": "^1.6.3"
   },
   "scripts": {
