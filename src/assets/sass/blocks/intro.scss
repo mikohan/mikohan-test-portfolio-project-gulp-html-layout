@@ -9,10 +9,15 @@
   line-height: 1.2rem;
   color: $color-black;
   font-weight: 600;
+
+  @media (max-width: 576px) {
+    font-size: 2rem;
+    line-height: 1.5rem;
+  }
 }
 
 .intro__subtitle {
-  font-size: 1.6 rem;
+  font-size: $intro-title-fs;
   color: $color-black;
   font-weight: 400;
   margin-bottom: 2rem;
