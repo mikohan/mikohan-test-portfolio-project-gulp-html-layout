@@ -6,3 +6,11 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.content__title {
+  margin-bottom: 2rem;
+
+  font-size: 2rem;
+  font-weight: 700;
+  color: $color-black;
+}
