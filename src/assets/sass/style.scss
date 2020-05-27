@@ -10,6 +10,10 @@
 @import "../../../node_modules/bootstrap/scss/transitions";
 @import "../../../node_modules/bootstrap/scss/modal";
 
+/* slick */
+
+@import "vendor/slick";
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 html {
@@ -49,6 +53,7 @@ body {
 @import "blocks/form";
 @import "blocks/input";
 @import "blocks/service";
+@import "blocks/portfolio";
 
 @import "blocks/footer";
 
